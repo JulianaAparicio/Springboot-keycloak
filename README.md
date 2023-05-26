@@ -14,6 +14,7 @@ Se utilizaron las siguientes dependencias:
 - Lombok
 - Spring Security
 - OAuth2 Resource Server
+- Log4j
 
 
 

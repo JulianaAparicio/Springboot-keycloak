@@ -6,6 +6,7 @@ Características del proyecto:
 - Proyecto utilizando Maven
 - Spring Boot 3.0.7
 - Java 17
+- La gestión del acceso e identidad se realizó con Keycloak 21.1.1 
 
 Se utilizaron las siguientes dependencias:
 
@@ -13,5 +14,7 @@ Se utilizaron las siguientes dependencias:
 - Lombok
 - Spring Security
 - OAuth2 Resource Server
+
+
 
 

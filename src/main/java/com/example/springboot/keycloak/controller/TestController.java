@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/test")
 public class TestController {
+
     @GetMapping("/anonymous")
     public ResponseEntity<String> getAnonymous(){
         return ResponseEntity.ok("Hello Anonymous");

@@ -9,6 +9,11 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.web.SecurityFilterChain;
 
+// Aca estamos anulando la configuración de seguridad HTTP por defecto.
+// Necesitamos especificar explícitamente que queremos que se comporte como un Servidor de Recursos.
+// Esto se logra a través del uso del método SecurityFilterChain.
+
+
 @RequiredArgsConstructor
 @Configuration
 @EnableWebSecurity
